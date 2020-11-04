@@ -1,0 +1,49 @@
+name: medicine_reminder
+description: Flutter project Ehab Kamal.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.22.0
+  provider: ^3.0.0+1
+  shared_preferences: 0.5.2
+  flutter_local_notifications:
+  flare_flutter:
+    git: 
+      url: git://github.com/2d-inc/Flare-Flutter.git
+      ref: dev
+      path: flare_flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.2"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/Logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/sound/
+
+  fonts:
+    - family: Ic
+      fonts:
+        - asset: assets/fonts/ic/ic_medicine.ttf
+    - family: Angel
+      fonts:
+        - asset: assets/fonts/neu/Angel Signature.ttf    
+
