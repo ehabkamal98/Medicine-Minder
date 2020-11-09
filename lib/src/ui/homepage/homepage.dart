@@ -87,7 +87,6 @@ class TopContainer extends StatelessWidget {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.only(
-              bottom: 10,
             ),
             child: Text(
               "Medicine Minder",
